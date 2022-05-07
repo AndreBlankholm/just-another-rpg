@@ -1,10 +1,8 @@
+const Player = require('../lib/Player');
 const Potion = require('../lib/Potion');
 
 jest.mock('../lib/Potion.js');  // potion is Mocked right here // its a (jest) method
 
-console.log(new Potion);
-
-const Player = require('../lib/Player');
 
 
 test('creates a player object', () => {
